@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Button } from './Button';
 type FilterBtnNameType = 'all' | 'ruble' | 'dollar' | 'euro';
 
 const money = [
