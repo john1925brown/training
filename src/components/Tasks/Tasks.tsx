@@ -6,7 +6,6 @@ type TasksType = {
 };
 
 export const Tasks = (props: TasksType) => {
-  const [isChecked, setIsChecked] = useState(false);
   const [checkedTasks, setCheckedTasks] = useState<{ [key: number]: boolean }>(
     {}
   );
