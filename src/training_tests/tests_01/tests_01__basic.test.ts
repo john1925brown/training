@@ -1,4 +1,4 @@
-import { sentense, splitIntoWords, sumFunc } from './tests_01';
+import { sentense, splitIntoWords, sumFunc } from './tests_01__basic';
 
 test.skip('sumFunc should be correct', () => {
   //data

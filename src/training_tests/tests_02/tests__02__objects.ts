@@ -13,7 +13,7 @@ type StudentAddressType = {
   city: LocalCityType;
 };
 
-type StudentType = {
+export type StudentType = {
   name: string;
   age: number;
   isActive: boolean;
@@ -49,13 +49,13 @@ type AddressType = {
   street: StreetAddressType;
 };
 
-type HousesType = {
+export type HousesType = {
   buildedAt: number;
   repaired: boolean;
   address: AddressType;
 };
 
-type GovernmentBuildingsType = {
+export type GovernmentBuildingsType = {
   type: string
   budget: number
   staffCount: number
