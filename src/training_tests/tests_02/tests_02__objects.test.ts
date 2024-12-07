@@ -1,4 +1,4 @@
-import { CityType } from './tests__02';
+import { CityType } from './tests__02__objects';
 
 let city: CityType;
 
