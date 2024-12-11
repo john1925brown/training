@@ -4,20 +4,20 @@ import { MoneyFilter } from './components/Filter';
 import { Tasks } from './components/Tasks/Tasks';
 import { dataTasks1, dataTasks2 } from './components/Tasks/tasksData';
 import { Messages } from './components/Input/Messages';
-import { User } from './training_tests/tests__06/tests__06__cb_events';
+import App1 from './add__tasks/01__03/src/AddTask__01__03';
 
 function App() {
   return (
     <div className="App">
-      <MoneyFilter />
+      {/* <MoneyFilter /> */}
       <div>
-        <Button name={'MyChanel-1'} />
-        <Button name={'MyChanel-2'} />
+        {/* <Button name={'MyChanel-1'} />
+        <Button name={'MyChanel-2'} /> */}
       </div>
       {/* <Tasks data={dataTasks1} /> */}
       {/* <Tasks data={dataTasks2} /> */}
-      <Messages />
-      <User />
+      {/* <Messages /> */}
+      <App1/>
     </div>
   );
 }
